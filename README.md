@@ -1,5 +1,5 @@
 # collapsible-sections
-A simple d3-based library to make a section containing a header and some content into a collapsible div:
+A simple native javascript library to make a section containing a header and some content into a collapsible div:
 
 For example:
 ```html
