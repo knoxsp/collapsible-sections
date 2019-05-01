@@ -2,7 +2,7 @@
 A simple d3-based library to make a section containing a header and some content into a collapsible div:
 
 For example:
-```
+```html
 <div class='collapsible'>
     <div class='heading'>
         I am a clickable Header
@@ -13,12 +13,15 @@ For example:
 </div>
 ```
 
-the en activate the colapsible bejaviour:
-collapsible('.collapsible')
+then activate the colapsible behaviour:
+
+```javascript
+    collapsible('.collapsible')
+```
 
 For containers with multiple collapsible entries:
 
-```
+```html
 <div id='my-main-container'>
   <div class='collapsible'>
       <div class='heading'>
@@ -40,7 +43,7 @@ For containers with multiple collapsible entries:
 ```
 
 THe javascript for this is:
-```
+```javascript
    collapsible('#my-main-container') 
 ```
 
@@ -49,7 +52,7 @@ THis will make only the entries within this container collapsible.
 It also supports a callback when the header is clicked:
 
 ex:
-```
+```javascript
   collapsible('#my-main-container', {callback: function(){alert("Header Clicked!")}})
 ```
 
