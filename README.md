@@ -25,18 +25,18 @@ For containers with multiple collapsible entries:
 <div id='my-main-container'>
   <div class='collapsible'>
       <div class='heading'>
-          I am a clickable Header
+          I am clickable Header 1
       </div>
       <div class='collapsible-content'>
-          I will disappear when yuou click the header
+          I will disappear when yuou click header 1
       </div>
   </div>
   <div class='collapsible'>
       <div class='heading'>
-          I am a clickable Header
+          I am clickable Header 2
       </div>
       <div class='collapsible-content'>
-          I will disappear when yuou click the header
+          I will disappear when yuou click header 2
       </div>
   </div>
 </div>
