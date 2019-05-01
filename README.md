@@ -4,7 +4,7 @@ A simple d3-based library to make a section containing a header and some content
 For example:
 ```html
 <div class='collapsible'>
-    <div class='heading'>
+    <div class='collapsible-heading'>
         I am a clickable Header
     </div>
     <div class='collapsible-content'>
@@ -24,7 +24,7 @@ For containers with multiple collapsible entries:
 ```html
 <div id='my-main-container'>
   <div class='collapsible'>
-      <div class='heading'>
+      <div class='collapsible-heading'>
           I am clickable Header 1
       </div>
       <div class='collapsible-content'>
@@ -32,7 +32,7 @@ For containers with multiple collapsible entries:
       </div>
   </div>
   <div class='collapsible'>
-      <div class='heading'>
+      <div class='collapsible-heading'>
           I am clickable Header 2
       </div>
       <div class='collapsible-content'>
